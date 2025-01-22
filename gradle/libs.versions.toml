@@ -1,0 +1,43 @@
+[versions]
+androidx-core = "1.15.0"
+androidx-appcompat = "1.7.0"
+material = "1.12.0"
+recyclerview = "1.4.0"
+cardview = "1.0.0"
+okhttp = "4.12.0"
+glide = "4.16.0"
+webkit = "1.12.1"
+coroutines = "1.7.3"
+rome = "2.1.0"
+jdom = "2.0.6.1"
+androidsvg = "1.4"
+
+[libraries]
+# AndroidX
+androidsvg = { group = "com.caverock", name = "androidsvg", version.ref = "androidsvg" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+
+# Material Design
+android-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Сеть и изображения
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+
+# WebView
+androidx-webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+
+# Корутины
+kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# RSS-парсинг
+rome = { group = "com.rometools", name = "rome", version.ref = "rome" }
+jdom = { group = "org.jdom", name = "jdom2", version.ref = "jdom" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.8.0" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.24" }

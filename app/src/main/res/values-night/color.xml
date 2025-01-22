@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основной фон -->
+    <color name="background">#121212</color>
+
+    <!-- Поверхности (карточки, панели) -->
+    <color name="white">#1E1E1E</color>
+
+
+    <!-- Текст -->
+    <color name="gray_dark">#A4A4A4</color>
+    <color name="gray_medium">#BDBDBD</color>
+    <color name="gray_light">#757575</color>
+
+    <!-- Акценты (оставляем как есть) -->
+    <color name="colorPrimary">#007BFF</color>
+    <color name="colorPrimaryDark">#0063CC</color>
+    <color name="colorAccent">#FFA500</color>
+
+    <!-- Дополнительные элементы -->
+    <color name="divider">#2D2D2D</color>
+    <color name="error">#CF6679</color>
+</resources>

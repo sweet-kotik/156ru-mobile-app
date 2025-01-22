@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">156.ru Объявления</string>
+    <string name="add_button_text">Добавить объявление</string>
+    <string name="error_loading">Ошибка загрузки данных</string>
+    <string name="loading">Загрузка...</string>
+    <string name="image_description">Изображение объявления</string>
+</resources>
